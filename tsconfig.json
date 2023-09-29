@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": false,
+    "types": ["node"],
+    "strict": false,
+    "newLine": "lf",
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "outDir": "lib",
+    "strictNullChecks": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src/client",
+    "src/typings/client.d.ts"
+  ]
+}
